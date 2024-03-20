@@ -1,0 +1,36 @@
+[
+    {   "name":"Project1",
+        "list":[{
+            "title":"todo1",
+            "description":"The first Todo item",
+            "priority":1,
+            "duedate":"01-03-2024",
+            "checked":true
+        },
+        {
+            "title":"todo2",
+            "description": "the second Todo item",
+            "priority":2,
+            "duedate":"08-09-2024",
+            "checked":true
+        }
+    ]
+    },
+    {   "name":"Project2",
+        "list":[{
+            "title":"todo3",
+            "description":"The first Todo item",
+            "priority":1,
+            "duedate":"01-03-2024",
+            "checked":false
+        },
+        {
+            "title":"todo4",
+            "description": "the second Todo item",
+            "priority":2,
+            "duedate":"08-09-2024",
+            "checked":false
+        }
+    ]
+    }
+]

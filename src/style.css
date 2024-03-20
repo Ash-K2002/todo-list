@@ -1,0 +1,25 @@
+body{
+    display: flex;
+    height: 100vh;
+}
+
+ul{
+    list-style-type: none;
+}
+#sidebar{
+flex-grow: 1;
+border: 2px solid black;
+}
+
+#content{
+flex-grow: 5;
+border: 2px solid green;
+}
+
+.todo-item{
+    border: 2px solid purple;
+}
+.todo-head{
+    border: 2px solid blue;
+    display: flex;
+}
