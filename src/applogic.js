@@ -1,4 +1,5 @@
 import {Todo, Projects} from './classes';
+import domlogic from './domlogic';
 
 // retrieves all projects from localstorage
 function retrieveFromStorage()
@@ -33,7 +34,6 @@ for(let item of project.list)
 }
 
 localStorage.setItem(name,JSON.stringify(arr));
-
 }
 
 // deletes a project from local storage

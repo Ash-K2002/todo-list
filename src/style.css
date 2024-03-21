@@ -16,10 +16,11 @@ flex-grow: 5;
 border: 2px solid green;
 }
 
-.todo-item{
-    border: 2px solid purple;
-}
-.todo-head{
-    border: 2px solid blue;
+#project-list > li {
     display: flex;
+    justify-content: space-between;
+}
+
+#project-list > li>span{
+    overflow: hidden;
 }

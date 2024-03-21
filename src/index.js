@@ -1,7 +1,7 @@
 import css from './style.css';
 import { addToStorage, retrieveFromStorage,deleteProjectStorage } from './applogic';
 import { Todo,Projects } from './classes';
-
+import { populateProjects } from './domlogic';
 const project= new Projects('third project',[]);
 
 const todo1= new Todo('todo1');
@@ -14,4 +14,5 @@ console.log(project);
 
 //addToStorage(project);
 console.log(retrieveFromStorage());
+populateProjects(retrieveFromStorage());
 deleteProjectStorage(project);
